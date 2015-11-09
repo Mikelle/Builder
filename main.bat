@@ -6,3 +6,4 @@ call settings.bat
 call clone.bat
 call build.bat
 call check.bat
+call email.bat
