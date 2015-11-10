@@ -1,9 +1,8 @@
-@echo off
 if "%running%"=="" goto :EOF
 
 set CloningSucceeded=true
 set BuildSucceeded=true
-set CloneLog=clone.txt
+set CheckSucceeded=true
 set BuildLog=msbuild.txt
 
 set GitPath="C:\Program Files (x86)\Git\bin\git.exe"
