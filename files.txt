@@ -1,2 +1,2 @@
-core.dll
+Logic.dll
 Circles.exe
