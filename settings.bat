@@ -4,6 +4,9 @@ set CloningSucceeded=true
 set BuildSucceeded=true
 set CheckSucceeded=true
 set BuildLog=msbuild.txt
+set CloneLog=clone.txt
+set MissingFile=
+set EmailBody=Build succeeded.
 
 set GitPath="C:\Program Files (x86)\Git\bin\git.exe"
 set MSBuildPath="C:\Windows\Microsoft.NET\Framework\v4.0.30319"
@@ -18,3 +21,6 @@ set Solution=Circles.sln
 set BuildLocation="%RepositoryPath%\%RepositoryName%\Circles\bin\Release"
 
 set EmailReceiver=dfgfdgd.2013@mail.ru
+set EmailPost=smtp.mail.ru
+set User=dfgfdgd.2013
+set Password=********
